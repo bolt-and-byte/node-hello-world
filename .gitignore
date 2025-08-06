@@ -16,4 +16,5 @@ yarn-error.log*
 /package.json.backup
 .idea/*
 /.env
-/.idea/
+/.idea/git remote add origin git@github.com:bolt-and-byte/node-hello-world.git
+
