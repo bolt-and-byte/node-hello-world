@@ -9,6 +9,7 @@
     "vercel": "^44.7.3"
   },
   "dependencies": {
+    "@ai-sdk/google": "^2.0.2",
     "@ai-sdk/openai": "^2.0.4",
     "ai": "^5.0.5",
     "zod": "3.25.76"
