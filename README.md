@@ -15,13 +15,13 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 ### Clone and Deploy
 
 ```bash
-git clone https://github.com/vercel/examples/tree/main/solutions/node-hello-world
+git clone https://github.com/bolt-and-byte/node-hello-world.git
 ```
 
 Install the Vercel CLI:
 
 ```bash
-npm i -g vercel
+pnpm i -g vercel
 ```
 
 Then run the app at the root of the repository:

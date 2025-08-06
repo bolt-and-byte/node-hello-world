@@ -27,7 +27,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     model: openai('gpt-4o'),
     providerOptions: {
       openai: {
-        structuredOutputs: false,
+        structuredOutputs: true,
       },
     },
     schemaName: 'recipe',

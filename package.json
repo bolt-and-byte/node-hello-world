@@ -4,15 +4,26 @@
   "devDependencies": {
     "@types/node": "22.13.14",
     "@vercel/node": "^5.3.11",
-    "typescript": "^5.5"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5",
+    "vercel": "^44.7.3"
   },
   "dependencies": {
     "@ai-sdk/openai": "^2.0.4",
     "ai": "^5.0.5",
     "zod": "3.25.76"
   },
+  "overrides": {
+    "@vercel/node": {
+      "ts-node": "10.9.2",
+      "typescript": "^5.5"
+    },
+    "vercel": {
+      "ts-node": "10.9.2",
+      "typescript": "^5.5"
+    }
+  },
   "engines": {
     "node": "22.x"
   }
-
 }
